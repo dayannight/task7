@@ -1,0 +1,141 @@
+html{
+    font-size: 625%;
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: .15rem;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+h2{
+    margin: 0;
+    font-size: .25rem;
+    user-select: none;
+}
+p{
+    margin: 0;
+    user-select: none;
+}
+button{
+    outline:none;
+}
+
+header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    display: flex;
+    height: 10%;
+    align-items: center;
+    padding: 0 0 0 4%;
+    background-color: #29bde0;
+}
+.btn-header{
+    background-image: url("../img/index-select.png");
+    width: 34px;
+    height: 27px;
+    border: none;
+    background-color: #29bde0;
+
+    transform: scale(.8,.8);
+}
+main{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    padding: .1rem .15rem;
+    height: 90%;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+
+}
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 11%;
+    min-height:.25rem;
+    margin-bottom: .2rem;
+    color: #8c8c8c;
+    background-color: #ffffff;
+    border: #6e6e6e 1px solid;
+
+}
+.h-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:inherit;
+    height: 10%;
+    color: #fbb73e;
+    border-bottom: #fbb73e 1px solid ;
+
+}
+.btn-cont{
+    width: 80%;
+    height: 15%;
+    margin: .15rem 0;
+    color: white;
+    background-color: #69d1e9;
+    border: none;
+    font-size:.2rem ;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:inherit;
+    min-height: 5rem;
+    border:#6e6e6e 1px solid;
+
+}
+.content-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    justify-content: space-around;
+
+
+}
+.page{
+    display: flex;
+}
+.page1{
+    width: .08rem;
+    height: .08rem;
+    margin: 0 .03rem;
+    background-color: #a7a7a7;
+    border-radius: 50%;
+}
+.icon-right img{
+    position: absolute;
+    right: 2.5%; bottom: 48%;
+    width: 3.2%;
+    height: 6.5%;
+    transform: scale(.8,.8);
+}
+/*动画效果*/
+button:hover{
+    background-color: #5897af;
+}
+header button:hover{
+    background-color: #29bde0;
+    transform: scale(.9,.9);
+}
+.page1:hover{
+    background-color: #c7c7c7;
+}
+.icon-right img:hover{
+    transform: scale(.9,.9);
+}
