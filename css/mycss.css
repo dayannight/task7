@@ -36,7 +36,7 @@ header{
     display: flex;
     height: 10%;
     align-items: center;
-    padding: 0 0 0 4%;
+    padding: 0 4%;
     background-color: #29bde0;
 }
 .btn-header{
@@ -48,7 +48,7 @@ header{
 
     transform: scale(.8,.8);
 }
-main{
+.main-index{
     position: absolute;
     top: 10%;
     display: flex;
@@ -59,9 +59,8 @@ main{
     height: 90%;
     overflow-x: hidden;
     overflow-y: auto;
-
-
 }
+
 .history{
     display: flex;
     align-items: center;
@@ -147,3 +146,201 @@ header button:hover{
 .icon-right img:hover{
     transform: scale(.9,.9);
 }
+
+
+
+/*-------------------------第二页*/
+body{
+    background-color: #29bde0;
+}
+.index2{
+    justify-content: space-between;
+}
+.index2 img{
+    transform: scale(.7);
+}
+.index2-title{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    min-height: 8%;
+    width: 100%;
+    padding: 0 3% 0 6%;
+    background-color: #b9e9f5;
+    margin-bottom: .4rem;
+}
+
+.main-index2{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    height:80%;
+    padding-bottom: 10%;
+}
+.btn-play{
+    width: .35rem;
+    height: .35rem;
+    border: none;
+    background-color: #fbb435 ;
+    border-radius:50%;
+}
+.btn-play img{
+    transform: scale(.7);
+}
+
+.index2-title-bottom{
+    position: absolute;
+    top: 8%; left:8%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    color: white;
+}
+.block-group{
+    position: absolute;
+    top: 19%;
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding:1% 0 10% 0;
+
+
+}
+.block-1{
+    float: left;
+    position: relative;
+    width: 22%;
+    padding-bottom: 22%;
+    margin: 2% 5.66666% 6% 5.666666%;
+    background-color:white;
+    z-index:1;
+
+}
+
+.block-2{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 96%;
+    height:66%;
+    background-color: #f5c97b;
+    margin: 0;
+    z-index: 11;
+
+
+
+}
+.block-3{
+    position: absolute;
+    left: 2%;top: 68%;
+    width: 96%;
+    height:30%;
+    background-color: #83b09a;
+    color: white;
+    margin: 0;
+    z-index: 11;
+
+}
+
+.span-blk2{
+    position: absolute;
+    top: 50%;left: 50%;
+    margin-top:-.14rem;
+    margin-left: -.2rem;
+    font-size:.2rem;
+
+}
+.span-blk3{
+    position: absolute;
+    top: 50%; left: 50%;
+    margin-top: -.105rem;
+    margin-left: -.1167rem;
+
+}
+
+.blk-slc{
+    position: absolute;
+    top: 75%;left: 1.5%;
+    width: 97%;
+    height: 20%;
+    display:flex;
+    justify-content: space-between;
+    transition: .5s;
+    z-index:1;
+
+
+
+
+}
+.blk-slc1,.blk-slc2,.blk-slc3,.blk-slc4{
+    width: 20%;
+    height:100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border:none;
+
+
+}
+.blk-slc1 {
+    background-image: url("../img/mian-dao.png");
+}
+.blk-slc2{
+    background-image: url("../img/main-jing.png");
+}
+.blk-slc3{
+    background-image: url("../img/main-zhunxin.png");
+}
+.blk-slc4{
+    background-image: url("../img/mian-shizi.png");
+}
+.block-1:hover .blk-slc{
+    display: flex;
+}
+.block-1:hover .blk-slc {
+    transform: translateY(140%);
+}
+
+footer{
+    position: fixed;
+    bottom: 0; left:0; right: 0;
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: #29bde0;
+    color: white;
+    font-size: .25rem;
+    z-index: 99;
+}
+.foot-btn{
+    width: 75%;
+    height: 80%;
+    border: none;
+    background-color: #fbb435;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
