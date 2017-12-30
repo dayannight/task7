@@ -197,7 +197,6 @@ body{
     overflow-y: auto;
     overflow-x: hidden;
     padding-bottom: .6rem;
-    z-index: 0;
 }
 .index2-title-bottom img{
     width:15px;
@@ -240,7 +239,7 @@ body{
     padding-bottom: 22%;
     margin: 2% 5.66666% 6% 5.666666%;
     background-color:white;
-    z-index:1;
+
 
 }
 
@@ -252,7 +251,7 @@ body{
     height:66%;
     background-color: #f5c97b;
     margin: 0;
-    z-index: 11;
+
 
 
 
@@ -265,7 +264,6 @@ body{
     background-color: #83b09a;
     color: white;
     margin: 0;
-    z-index: 11;
 
 }
 
@@ -293,7 +291,6 @@ body{
     display:flex;
     justify-content: space-between;
     transition: .5s;
-    z-index:1;
 
 
 
