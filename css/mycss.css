@@ -170,6 +170,12 @@ body{
     justify-content: space-between;
     z-index: 9;
 }
+.index2 h1{
+    font-size: .25rem;
+    color: white;
+    margin: 0;
+    font-weight: lighter;
+}
 .index2 img{
     transform: scale(.7);
 }
@@ -202,11 +208,13 @@ body{
     width: .35rem;
     height: .35rem;
     border: none;
-    background-color: #fbb435 ;
-    border-radius:50%;
-}
-.btn-play img{
-    transform: scale(.7);
+    border-radius: 50%;
+    background-image: url("../img/main-paly.png");
+    background-repeat:no-repeat;
+    background-size:60% 60%;
+    background-position: 65% center;
+    background-color: #f5c97b;
+
 }
 
 .index2-title-bottom{
